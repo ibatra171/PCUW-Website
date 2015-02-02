@@ -1,4 +1,8 @@
 
+body {
+	background-image: url("img/bg.png");
+}
+
 .nav {
 	color = #842BA2;
 }
@@ -8,12 +12,71 @@
 	margin-left: auto;
 	height: 20%;
 	width: 30%;
+	background-image: url("img/bg-pictures.jpg");
 }
 
 .test {
 	color: #842BA2;
 }
 
-#about-intro {
+.board-pic {
+	width = 10px;
+	height = 10px;
+}
+
+.photo-indiv {
+	/* for individual pages
+	should float to left/right of text
+	*/
+}
+
+.introtext {
 	font-style: italic; 
 }
+
+/* Blockquote styling from http://www.webmaster-source.com/2012/04/24/pure-css-blockquote-styling/ */
+/* todo edit width */
+
+blockquote {
+font-family: Georgia, serif;
+font-size: 18px;
+font-style: italic;
+width: 800px;
+margin: 0.25em 0;
+padding: 0.25em 40px;
+line-height: 1.45;
+position: relative;
+color: #383838;
+}
+
+blockquote:before {
+display: block;
+content: "\201C";
+font-size: 80px;
+position: absolute;
+left: -20px;
+top: -20px;
+color: #842BA2;
+}
+
+blockquote:after {
+display: block;
+content: "\201D";
+font-size: 80px;
+position: absolute;
+right: 20px;
+bottom: -30px;
+color: #842BA2;
+}
+
+blockquote cite {
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+
+.purple-heading {
+color: #842BA2;	
+}
+
